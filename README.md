@@ -7,7 +7,9 @@
 ## maven 引入
 
 ```xml
- <groupId>com.github.hughwick</groupId>
- <artifactId>captcha</artifactId>
- <version>1.0.0</version>
+ <dependency>
+  <groupId>com.github.hughwick</groupId>
+  <artifactId>captcha</artifactId>
+  <version>1.0.0</version>
+ </dependency>
 ```
