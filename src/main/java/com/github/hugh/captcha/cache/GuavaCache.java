@@ -14,7 +14,8 @@ import java.util.concurrent.TimeUnit;
  * <li>{@link CacheBuilder#newBuilder()}有以下参数可进行配置</li>
  * <li>{@link CacheBuilder#initialCapacity(int)}缓存容器的初始容量}</li>
  * <li>{@link CacheBuilder#maximumSize(long)}设置缓存最大容量，超过之后就会按照LRU最近虽少使用算法来移除缓存项}</li>
- * <li>{@link CacheBuilder#expireAfterWrite(long, TimeUnit)}第一参数:时间长度,第二参数：时间单位}</li>
+ * <li>{@link CacheBuilder#expireAfterWrite(long, TimeUnit)} 设置缓存n秒后没有创建/覆盖时会被回收、第一参数:时间长度,第二参数：时间单位}</li>
+ * <li>{@link CacheBuilder#expireAfterAccess(long, TimeUnit)} (long, TimeUnit)} 设置缓存n秒后没有读写就会被回收、第一参数:时间长度,第二参数：时间单位}</li>
  * <li>{@link CacheBuilder#initialCapacity(int)}缓存容器的初始容量}</li>
  * </ul>
  *

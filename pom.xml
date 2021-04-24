@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.hughwick</groupId>
-    <artifactId>captcha</artifactId>
+    <artifactId>hugh-captcha</artifactId>
     <version>1.0.0</version>
 
     <properties>
@@ -44,12 +44,12 @@
     </properties>
 
     <dependencies>
-                <dependency>
-                    <groupId>junit</groupId>
-                    <artifactId>junit</artifactId>
-                    <version>${junit.version}</version>
-                    <scope>test</scope>
-                </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
         <!--        <dependency>-->
         <!--            <groupId>org.apache.commons</groupId>-->
         <!--            <artifactId>commons-collections4</artifactId>-->
@@ -211,10 +211,10 @@
     </licenses>
     <!-- SCM信息 -->
     <scm>
-        <connection>scm:git:https://github.com/HughWick/toolbox.git</connection>
-        <developerConnection>scm:git:https://github.com/HughWick/toolbox.git</developerConnection>
-        <url>https://github.com/HughWick/toolbox</url>
-        <tag>1.0.1</tag>
+        <connection>scm:git:https://github.com/HughWick/captcha.git</connection>
+        <developerConnection>scm:git:https://github.com/HughWick/captcha.git</developerConnection>
+        <url>https://github.com/HughWick/aptcha</url>
+        <tag>1.0.0</tag>
     </scm>
     <!-- 开发者信息 -->
     <developers>

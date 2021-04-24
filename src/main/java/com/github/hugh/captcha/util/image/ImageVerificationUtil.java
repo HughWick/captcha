@@ -213,7 +213,6 @@ public class ImageVerificationUtil {
                 }
             }
         }
-
         return cutoutImage;
     }
 
@@ -369,6 +368,7 @@ public class ImageVerificationUtil {
      */
     public static boolean verify(String x, String y, String sessionId) {
         try {
+            //阈值
             int threshold = 5;
             ImageVerificationVo imageVerificationVo = GuavaCache.VERIFY_CACHE.get(sessionId);
             boolean b = Math.abs(Integer.parseInt(x) - imageVerificationVo.getX()) <= threshold;
