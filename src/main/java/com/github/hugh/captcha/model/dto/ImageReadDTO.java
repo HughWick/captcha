@@ -4,6 +4,12 @@ import lombok.Data;
 
 import java.awt.image.BufferedImage;
 
+/**
+ * 文件读取的DTO
+ *
+ * @author hugh
+ * @since 1.0.0
+ */
 @Data
 public class ImageReadDTO {
 

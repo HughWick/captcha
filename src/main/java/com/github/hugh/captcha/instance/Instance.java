@@ -1,6 +1,6 @@
-package com.github.hugh.captcha.support.instance;
+package com.github.hugh.captcha.instance;
 
-import com.github.hugh.captcha.support.cache.GuavaCache;
+import com.github.hugh.captcha.cache.GuavaCache;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
 
